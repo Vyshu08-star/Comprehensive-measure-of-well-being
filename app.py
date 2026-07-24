@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model
-model = pickle.load(open("hdi_model.pkl", "rb"))
+model = pickle.load(open(r"data set\hdi_model.pkl", "rb"))
 
 
 @app.route("/")
